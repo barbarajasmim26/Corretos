@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema de Gestão de Imóveis - TODO
 
 ## Banco de Dados & Backend
@@ -60,3 +61,45 @@
 - [x] Criar página WhatsApp com modelos de mensagem prontos (cobrança, vencimento, recibo)
 - [x] Integrar botão WhatsApp no detalhe do contrato e na lista de alertas
 - [x] Exportar projeto completo como ZIP (código-fonte, banco, assets, instruções)
+=======
+# Corretos-v2: Sistema de Gestão de Imóveis - TODO
+
+## Banco de Dados
+- [ ] Criar schema Drizzle com tabelas: propriedades, contratos, pagamentos, alertas
+- [ ] Configurar migrations e validar conexão DATABASE_URL
+
+## Backend (Express + tRPC)
+- [ ] Implementar router de contratos (listar, criar, atualizar, deletar)
+- [ ] Implementar router de pagamentos (listar, registrar, atualizar status)
+- [ ] Implementar router de alertas (gerar alertas de vencimento)
+- [ ] Implementar router de relatórios (receita, ocupação, vencimentos)
+- [ ] Implementar router de recibos (gerar PDF)
+- [ ] Implementar router de WhatsApp (enviar mensagens)
+- [ ] Implementar router de busca (busca rápida por casa/inquilino/endereço)
+- [ ] Implementar router de upload/download de PDFs (S3)
+
+## Frontend (React)
+- [ ] Criar layout Dashboard com sidebar navigation
+- [ ] Criar página Home/Dashboard com visão geral
+- [ ] Criar página de Contratos com filtros
+- [ ] Criar página de Detalhes do Contrato
+- [ ] Criar página de Alertas com badges visuais
+- [ ] Criar página de Calendário de Pagamentos
+- [ ] Criar página de Relatórios
+- [ ] Criar página de Recibos
+- [ ] Criar página de WhatsApp
+- [ ] Criar página de Busca Rápida
+- [ ] Implementar upload/download de PDFs
+
+## Build e Deploy
+- [ ] Corrigir erros de build (vite + esbuild)
+- [ ] Ajustar servidor para usar process.env.PORT
+- [ ] Configurar DATABASE_URL para Render
+- [ ] Testar build localmente
+- [ ] Atualizar GitHub com código completo
+- [ ] Fazer deploy no Render
+- [ ] Validar link do deploy
+
+## Dados Iniciais
+- [ ] Importar dados de propriedades, contratos e pagamentos de 2026
+>>>>>>> 2aff767 (Reconstruir projeto completo com backend, frontend e configuração de deploy)
